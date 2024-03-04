@@ -116,7 +116,7 @@ $sent_message_id = send_reply($chatId, $message_id, $keyboard, "<b>
 [↯] 𝗚𝗔𝗧𝗘𝗪𝗔𝗬 ★  2001 Insufficient Funds?
 ━━━━━━━━━━━━━━━━━━
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username/<code>[$rank]</code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 ━━━━━━━━━━━━━━━━━━</b>");
 
 function value($str,$find_start,$find_end)
@@ -197,7 +197,7 @@ sleep(1);
 [↯] 𝗚𝗔𝗧𝗘𝗪𝗔𝗬 ★ 696969: Duplicate card exists?
 ━━━━━━━━━
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username/<code>[$rank]</code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 ━━━━━━━━━━━━━━━━━</b>
 ━━━━━━━━━━━━━━━━━━</b>");
 
@@ -287,7 +287,7 @@ sleep(1);
 [↯] 𝗚𝗔𝗧𝗘𝗪𝗔𝗬 ★ 2044: Declined - Call Issuer?
 ━━━━━━━━━━━━━━━━━━
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username/<code>[$rank]</code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 ━━━━━━━━━━━━━━━━━━</b>");
 
 
@@ -348,7 +348,7 @@ sleep(1);
 [↯] 𝗚𝗔𝗧𝗘𝗪𝗔𝗬 ★ cvv: Gateway Rejected: cvv?
 ━━━━━━━━━━━━━━━━━━
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username/<code>[$rank]</code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 ━━━━━━━━━━━━━━━━━━</b>");
 //=======================[5 REQ]==================================//
 $ch = curl_init();
@@ -447,7 +447,7 @@ sleep(1);
 [↯] 𝗚𝗔𝗧𝗘𝗪𝗔𝗬 ★ cvv: Gateway Rejected: cvv?
 ━━━━━━━━━━━━━━━━━━
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username/<code>[$rank]</code>
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING</b>
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess</b>
 ━━━━━━━━━━━━━━━━━━</b>", $message_id);
 $end_time = microtime(true);
 $time = number_format($end_time - $start_time, 2);
@@ -481,7 +481,7 @@ if (
 [↯] 𝗧𝗜𝗠𝗘 <code>$time seconds</code> 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username <code>[$rank]</code>
 ━━━━━━━━━━━━━━━━━━
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 
 </b>";
 sleep(1);
@@ -515,7 +515,7 @@ $resp = "<b>
 [↯] 𝗧𝗜𝗠𝗘 <code>$time seconds</code> 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username <code>[$rank]</code>
 ━━━━━━━━━━━━━━━━━━
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 
 </b>";
 
@@ -545,7 +545,7 @@ $resp = "<b>
 [↯] 𝗧𝗜𝗠𝗘 <code>$time seconds</code> 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username <code>[$rank]</code>
 ━━━━━━━━━━━━━━━━━━
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 
 </b>";
 
@@ -571,7 +571,7 @@ $resp = "<b>
 [↯] 𝗧𝗜𝗠𝗘 <code>$time seconds</code> 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username <code>[$rank]</code>
 ━━━━━━━━━━━━━━━━━━
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 
   </b>";
 
@@ -596,7 +596,7 @@ $resp = "<b>
 [M] 𝗧𝗜𝗠𝗘 <code>$time seconds</code> 
 [M] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username <code>[$rank]</code>
 ━━━━━━━━━━━━━━━━━━
-[M] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[M] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 
 </b>";
 
@@ -621,7 +621,7 @@ $resp = "<b>
 [↯] 𝗧𝗜𝗠𝗘 <code>$time seconds</code> 
 [↯] 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 @$username <code>[$rank]</code>
 ━━━━━━━━━━━━━━━━━━
-[↯] 𝗕𝗢𝗧 𝗕𝗬 @MANISHOPGAMING
+[↯] 𝗕𝗢𝗧 𝗕𝗬 @Itsz_Krish_Babess
 
   </b>";
 
