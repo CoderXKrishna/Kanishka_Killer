@@ -28,7 +28,7 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '❌';
-$owner = '<code>@MANISHOPGAMING</code>';
+$owner = '<code>@Itsz_Krish_Babess</code>';
 $cofuid = '1212';
 $cofuid2 = '1212';
 $cofuid3 = '1212';
@@ -79,7 +79,7 @@ $callbackmessage = $update->callback_query->message->text;
 $callbackid = $update->callback_query->id;
 
 $text = $update->message->text;
-$owner = '<code>@MANISHOPGAMING</code>';
+$owner = '<code>@Itsz_Krish_Babess</code>';
 
 
 
@@ -88,8 +88,8 @@ $owner = '<code>@MANISHOPGAMING</code>';
 $keyboard = json_encode([
     'inline_keyboard' => [
         [
-            ['text' => "Owner 🧑‍💻", 'url' => "https://t.me/ManishCardingStore"],
-            ['text' => "BUY 💰", 'url' => "https://t.me/MANISHOPGAMING"],
+            ['text' => "Owner 🧑‍💻", 'url' => "https://t.me/Carding_Chronicle"],
+            ['text' => "BUY 💰", 'url' => "https://t.me/Mr_Mrs_Krishna"],
         ],
     ]
 ]);
@@ -98,12 +98,12 @@ $keyboard = json_encode([
 
 if ($cdata2 == "back") {
     // Go back to the welcome page
-    $gatesText = "<b>━━━━━━━━━━━━━━━━━━━\n" . str_repeat(' ', 20) . "『 𝑮𝑨𝑻𝑬𝑾𝑨𝒀𝑺 』 💫" . str_repeat(' ', 20) . "\n━━━━━━━━━━━━━━━━━━━\n • ┌TOTAL GATES ⇢ 8\n • ├PREMIUM GATES ⇢ 7\n • └FREE GATES ⇢ 1\n\n ├Bot By ➳ @MANISHOPGAMING</b>";
+    $gatesText = "<b>━━━━━━━━━━━━━━━━━━━\n" . str_repeat(' ', 20) . "『 𝑮𝑨𝑻𝑬𝑾𝑨𝒀𝑺 』 💫" . str_repeat(' ', 20) . "\n━━━━━━━━━━━━━━━━━━━\n • ┌TOTAL GATES ⇢ 8\n • ├PREMIUM GATES ⇢ 7\n • └FREE GATES ⇢ 1\n\n ├Bot By ➳ @Itsz_Krish_Babess</b>";
 
     $gatesText = "<b>━━━━━━━━━━━━━━━━━━━\n" 
                . str_repeat(' ', 20) . "『 𝑮𝑨𝑻𝑬𝑾𝑨𝒀𝑺 』 💫" 
                . str_repeat(' ', 20) 
-               . "\n━━━━━━━━━━━━━━━━━━━\n •├𝗧𝗼𝘁𝗮𝗹  𝗚𝗔𝗧𝗘𝗦 ⇢ 8\n •├𝗣𝗥𝗘𝗠𝗜𝗨𝗠  𝗚𝗔𝗧𝗘𝗦 ⇢ 7\n •├𝗙𝗥𝗘𝗘 𝗚𝗔𝗧𝗘𝗦 ⇢ 1\n\n━━━━━━━━━━━━━━━━━━━\n •├Dev ➳ <code>@MANISHOPGAMING</code></b>";
+               . "\n━━━━━━━━━━━━━━━━━━━\n •├𝗧𝗼𝘁𝗮𝗹  𝗚𝗔𝗧𝗘𝗦 ⇢ 8\n •├𝗣𝗥𝗘𝗠𝗜𝗨𝗠  𝗚𝗔𝗧𝗘𝗦 ⇢ 7\n •├𝗙𝗥𝗘𝗘 𝗚𝗔𝗧𝗘𝗦 ⇢ 1\n\n━━━━━━━━━━━━━━━━━━━\n •├Dev ➳ <code>@Itsz_Krish_Babess</code></b>";
 
     $gatesKeyboard = json_encode([
         'inline_keyboard' => [
@@ -111,7 +111,7 @@ if ($cdata2 == "back") {
             [['text' => '𝗕𝗔𝗖𝗞', 'callback_data' => 'back2']]
         ]
     ]);
-    $videoUrl = "https://t.me/Itsz_Manish/2";
+    $videoUrl = "https://t.me/Mr_Mrs_Krishna/154";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -139,7 +139,7 @@ if ($cdata2 == "gates") {
         ]
     ]);
 
-    $videoUrl = "https://t.me/Itsz_Manish/2";
+    $videoUrl = "https://t.me/Mr_Mrs_Krishna/154";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -178,7 +178,7 @@ if ($cdata2 == "free") {
 ├𝑼𝒔𝒂𝒈𝒆 : <code>/ccn 𝒄𝒄|𝒎𝒎|𝒆𝒙𝒑|𝒄𝒗𝒗 </code>\n╚═════════════════╝\n</b>";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/Itsz_Manish/2";
+    $videoUrl = "https://t.me/Mr_Mrs_Krishna/154";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -229,7 +229,7 @@ if ($cdata2 == "premium") {
   ├𝑼𝒔𝒂𝒈𝒆 : /oyo 𝒄𝒄|𝒎𝒎|𝒆𝒙𝒑|𝒄𝒗𝒗\n╚═════════════════╝</b>";
 
     // Replace this with your video URL
-    $videoUrl = "https://t.me/Itsz_Manish/2";
+    $videoUrl = "https://t.me/Mr_Mrs_Krishna/154";
 
     $inputMediaVideo = json_encode([
         'type' => 'video', 
@@ -278,7 +278,7 @@ if ($cdata2 == "herr") {
                </b>";
   
     // Change this to your video URL
-    $videoUrl = "https://t.me/Itsz_Manish/2";
+    $videoUrl = "https://t.me/Mr_Mrs_Krishna/154";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -296,16 +296,16 @@ if ($cdata2 == "herr") {
 
 //=============PRICE===============//
 if ($cdata2 == "price") {
-    $priceText = "<b>\n" . str_repeat(' ', 20) . "『 𝑷𝒓𝒊𝒄𝒆 💸』" . str_repeat(' ', 20) . "\n╔═════════════════╗\n •├3 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 2$\n •├7 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 4$\n •├15 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 7$\n •├30 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 12$\n╚═════════════════╝\n •├Dev ➳ <code>@MANISHOPGAMING</code>\n━━━━━━━━━━━━━━━━━━━</b>";
+    $priceText = "<b>\n" . str_repeat(' ', 20) . "『 𝑷𝒓𝒊𝒄𝒆 💸』" . str_repeat(' ', 20) . "\n╔═════════════════╗\n •├3 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 2$\n •├7 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 4$\n •├15 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 7$\n •├30 𝑫𝒂𝒚𝒔 𝑷𝒍𝒂𝒏 ⇢ 12$\n╚═════════════════╝\n •├Dev ➳ <code>@Itsz_Krish_Babess</code>\n━━━━━━━━━━━━━━━━━━━</b>";
 
     $priceKeyboard = json_encode([
         'inline_keyboard' => [
-            [['text' => '𝑯𝑶𝑴𝑬', 'callback_data' => 'back2'], ['text' => '𝑩𝑼𝒀', 'url' => 'https://t.me/MANISHOPGAMING']]
+            [['text' => '𝑯𝑶𝑴𝑬', 'callback_data' => 'back2'], ['text' => '𝑩𝑼𝒀', 'url' => 'https://t.me/Itsz_Krish_Babess']]
         ]
     ]);
 
     // Change this to your video URL
-    $videoUrl = "https://t.me/Itsz_Manish/2";
+    $videoUrl = "https://t.me/Mr_Mrs_Krishna/154";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -342,7 +342,7 @@ file_get_contents("https://api.telegram.org/bot$botToken/deleteMessage?chat_id=$
 //========finalize end=========//
 $channel = json_encode([
     'inline_keyboard' => [
-        [['text' => "𝗚𝗿𝗼𝘂𝗽 ", 'url' => "https://t.me/ManishCardingStore"], ['text' => "𝗖𝗵𝗮𝗻𝗻𝗲𝗹", 'url' => "https://t.me/ManishCardingStore"]],
+        [['text' => "𝗚𝗿𝗼𝘂𝗽 ", 'url' => "https://t.me/Carding_Chronicle"], ['text' => "𝗖𝗵𝗮𝗻𝗻𝗲𝗹", 'url' => "https://t.me/Carding_Chronicle"]],
         [['text' => "𝗕𝗔𝗖𝗞 ", 'callback_data' => 'back2']]
     ]
 ]);
@@ -351,7 +351,7 @@ if ($cdata2 == "channel") {
     $channelText = "<b>𝑱𝒐𝒊𝒏 𝒐𝒖𝒓 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍 𝑮𝒓𝒐𝒖𝒑 𝒂𝒏𝒅 𝑪𝒉𝒂𝒏𝒏𝒆𝒍</b>";
     
     // Change this to your video URL
-    $videoUrl = "https://t.me/Itsz_Manish/2";
+    $videoUrl = "https://t.me/Mr_Mrs_Krishna/154";
 
     $inputMediaVideo = json_encode([
         'type' => 'video',
@@ -372,7 +372,7 @@ if ($cdata2 == "back2") {
 𝑬𝒙𝒑𝒍𝒐𝒓𝒆 𝒎𝒆 𝒎𝒐𝒓𝒆 𝒃𝒚 𝒄𝒍𝒊𝒄𝒌𝒊𝒏𝒈 𝒕𝒉𝒆 𝒃𝒖𝒕𝒕𝒐𝒏𝒔 𝒃𝒆𝒍𝒐𝒘</b>");
     
     // Change this to your video url
-    $backVideoUrl = "https://t.me/Itsz_Manish/2"; 
+    $backVideoUrl = "https://t.me/Mr_Mrs_Krishna/154"; 
 
     $keyboard2 = json_encode([
         'inline_keyboard' => [
